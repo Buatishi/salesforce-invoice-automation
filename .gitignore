@@ -1,0 +1,22 @@
+# Datos reales - NUNCA subir
+*.xlsx
+*.pdf
+.env
+dist/
+Info/
+build/
+logs/
+ADR_facturas/
+config_real.py
+credentials.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+venv_build/
+
+# VS Code
+.vscode/

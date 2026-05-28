@@ -1,0 +1,24 @@
+# =============================================================================
+# requirements.txt — InvoiceFlow Bot v1.3
+# =============================================================================
+
+# ── Automatización web ────────────────────────────────────────────────────────
+playwright>=1.43.0
+
+# ── Panel de control web ──────────────────────────────────────────────────────
+flask>=3.0.0
+
+# ── Lectura y escritura de Excel ──────────────────────────────────────────────
+pandas>=2.1.0
+openpyxl>=3.1.0
+
+# ── Variables de entorno ──────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Validación de configuración (Pydantic v2 requerido) ──────────────────────
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+
+# ── Type checking (desarrollo) ────────────────────────────────────────────────
+mypy>=1.9.0
+pandas-stubs>=2.1.0

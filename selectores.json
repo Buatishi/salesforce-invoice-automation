@@ -1,0 +1,22 @@
+{
+  "_comentario": "Selectores CSS/Playwright para tu instancia de Salesforce Lightning.",
+  "_instrucciones": "Abrí tu Salesforce en Chrome, presioná F12, hacé clic en el elemento y copiá el atributo name, title, placeholder o class.",
+  "login": {
+    "campo_usuario": "input[name=\"username\"], input[id=\"username\"]",
+    "campo_password": "input[name=\"pw\"], input[id=\"password\"]",
+    "boton_login": "input[type=\"submit\"]"
+  },
+  "busqueda": {
+    "barra_global": "input[placeholder*=\"Buscar en Salesforce\"]"
+  },
+  "archivos_adjuntos": {
+    "seccion_archivos": "div[class*=\"attachments\"], div[title*=\"Archivos\"], div[title*=\"Files\"]",
+    "item_archivo": "a[class*=\"file\"], span[class*=\"file-name\"]",
+    "boton_subir": "button:has-text(\"Upload Files\"), button:has-text(\"Subir archivos\"), input[type=\"file\"]",
+    "boton_confirmar": "button:has-text(\"Done\"), button:has-text(\"Listo\"), button:has-text(\"Guardar\")"
+  },
+  "facturado": {
+    "casilla": "input[type=\"checkbox\"][name*=\"acturado\"], input[type=\"checkbox\"][title*=\"acturado\"]",
+    "boton_guardar": "button:has-text(\"Guardar\"), button:has-text(\"Save\")"
+  }
+}
